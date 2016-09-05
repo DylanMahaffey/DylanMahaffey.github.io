@@ -1,0 +1,49 @@
+/*UNIVERSAL*/
+html {
+    background-color: honeydew;
+}
+
+/*LANDING PAGE*/
+.a {
+    background-image: url('../img/city.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50vh;
+    color: white;
+}
+
+.a a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+.a a:hover {
+    color:  #ff3300;
+}
+
+.a img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Oswald', cursive;
+    font-size: 50px;
+}
+
+/*BODY*/
+
+
+.content {
+    margin-top: 40px;
+}
+
+nav {
+    background: #202020 !important;
+}
