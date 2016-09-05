@@ -3,6 +3,17 @@ html {
     background-color: honeydew;
 }
 
+.navbar-default {
+    background: black;
+    border: none;
+    color: white;
+}
+
+.navhover:hover {
+    color:  #ff6600 !important;
+    background: #383838 !important;
+}
+
 /*LANDING PAGE*/
 .a {
     background-image: url('../img/city.jpg');
@@ -24,7 +35,7 @@ html {
 }
 
 .a a:hover {
-    color:  #ff3300;
+    color:  #ff6600;
 }
 
 .a img {
@@ -37,13 +48,34 @@ h1 {
     font-size: 50px;
 }
 
-/*BODY*/
-
-
-.content {
-    margin-top: 40px;
+/*PORTFOLIO PAGE*/
+.item {
+    height:  700px;
 }
 
-nav {
-    background: #202020 !important;
+.pet-store {
+    background-image: url('../img/screenshot (1).png');
+}
+
+.college {
+    background-image: url('../img/screenshot (2).png');
+}
+
+.carH {
+     font-size: 60px;
+}
+
+.carA {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.carA:hover {
+    color: #ff6600;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
 }
