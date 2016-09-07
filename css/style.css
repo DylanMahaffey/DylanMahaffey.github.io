@@ -1,6 +1,17 @@
 /*UNIVERSAL*/
-html {
+html, body {
     background-color: honeydew;
+}
+
+.navbar-default {
+    background: black;
+    border: none;
+    color: white;
+}
+
+.navhover:hover {
+    color:  #ff6600 !important;
+    background: #383838 !important;
 }
 
 /*LANDING PAGE*/
@@ -24,7 +35,7 @@ html {
 }
 
 .a a:hover {
-    color:  #ff3300;
+    color:  #ff6600;
 }
 
 .a img {
@@ -37,28 +48,23 @@ h1 {
     font-size: 50px;
 }
 
-/*BODY*/
-
-
-.content {
-    margin-top: 40px;
-}
-
-nav {
-    background: #202020 !important;
-}
-
 /*PORTFOLIO PAGE*/
+.myP {
+    text-align: center;
+}
+
 .item {
     height:  700px;
 }
 
 .pet-store {
-    background-image: url('../img/screenshot (1).png');
+    background-image: url('../img/Screenshot (1).png');
+    background-size: cover;
 }
 
 .college {
-    background-image: url('../img/screenshot (2).png');
+    background-image: url('../img/Screenshot (2).png');
+    background-size: cover;
 }
 
 .carH {
