@@ -7,11 +7,17 @@ html, body {
     background: black;
     border: none;
     color: white;
+    display: block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .navhover:hover {
     color:  #ff6600 !important;
     background: #383838 !important;
+    bottom: 3px;
+    font-size: 16px;
+    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.8);
+    font-weight: lighter;
 }
 
 /*LANDING PAGE*/
@@ -19,12 +25,10 @@ html, body {
     background-image: url('../img/city.jpg');
     height: 100vh;
     background-size: cover;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 50vh;
-    color: white;
 }
 
 .a a {
@@ -32,43 +36,62 @@ html, body {
     color: white;
     font-size: 2em;
     font-family: 'Crimson Text', sans-serif;
+    text-shadow: 5px 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .a a:hover {
     color:  #ff6600;
+    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);
 }
 
 .a img {
     width: 300px;
     border-radius: 50%;
+    box-shadow:  5px 10px 30px rgba(0, 0, 0, 0.6);
+    padding: 0;
 }
 
-h1 {
+.a h1 {
     font-family: 'Oswald', cursive;
     font-size: 50px;
+    text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 70px;
 }
+
+.center-content {
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 90%;
+    padding: 0 200px;
+}
+
 
 /*PORTFOLIO PAGE*/
 .myP {
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .item {
     height:  700px;
+    background-size: cover;
 }
 
 .pet-store {
     background-image: url('../img/Screenshot (1).png');
-    background-size: cover;
 }
 
 .college {
     background-image: url('../img/Screenshot (2).png');
-    background-size: cover;
+}
+
+.restaurant {
+background-image: url('../img/Screenshot (6).png');
 }
 
 .carH {
      font-size: 60px;
+     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .carA {
@@ -83,5 +106,13 @@ h1 {
 .carA:hover {
     color: #ff6600;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(56, 56, 56, 0.5);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6), 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+/*CONTACT PAGE*/
+.contact {
+    background-image: url('../img/map-background.png');
+    height: 100vh;
+    background-size: cover;
 }
