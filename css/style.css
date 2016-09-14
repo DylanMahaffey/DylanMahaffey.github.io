@@ -8,14 +8,14 @@ html, body {
     background: rgba(0, 20, 137, 0.3);
     border: none;
     color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navhover:hover {
     color:  white !important;
-    background: #383838 !important;
+    background: #555 !important;
     font-size: 18px;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 /*LANDING PAGE*/
@@ -98,9 +98,15 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.about {
+    text-align: center;
+    color: white;
+
+}
+
 /*CONTACT FORM*/
 .contact-form {
-
+    color: white;
 }
 
 .text-input {
@@ -131,7 +137,7 @@ h1 {
 }
 
 .filler {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
     width: 95%;
     background: honeydew;
     margin-bottom: 80px;
@@ -141,6 +147,7 @@ h1 {
 }
 
 #submit {
+    color: black;
     background: honeydew;
     border: 2px solid rgba(0, 0, 0, 0.3);
     width: 200px;
@@ -154,8 +161,10 @@ h1 {
     font-size: 42px;
     text-align: center;
     margin-top: 200px;
+    color: white;
 }
 
 i {
-        width: 70px;
+    width: 70px;
+    margin: 20px
 }
