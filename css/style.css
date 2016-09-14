@@ -1,20 +1,26 @@
+@import 'https://fonts.googleapis.com/css?family=Handlee';
 /*UNIVERSAL*/
-html {
-    background-color: honeydew;
+html, body {
+    background-color: #a7d4ee;
 }
 
 .navbar-default {
-    background: black;
+    background: rgba(0, 20, 137, 0.3);
     border: none;
     color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 .navhover:hover {
-    color:  #ff6600 !important;
+    color:  white !important;
     background: #383838 !important;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
 }
 
 /*LANDING PAGE*/
+
+
 .a {
     background-image: url('../img/city.jpg');
     height: 100vh;
@@ -30,22 +36,33 @@ html {
 .a a {
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Crimson Text', sans-serif;
 }
 
 .a a:hover {
     color:  #ff6600;
+    font-size: 2.5em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 .a img {
     width: 300px;
     border-radius: 50%;
+    padding: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 
 h1 {
     font-family: 'Oswald', cursive;
-    font-size: 50px;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 90%;
+    padding: 20px 200px;
 }
 
 /*PORTFOLIO PAGE*/
@@ -63,6 +80,7 @@ h1 {
 
 .carH {
      font-size: 60px;
+     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .carA {
@@ -78,4 +96,66 @@ h1 {
     color: #ff6600;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*CONTACT FORM*/
+.contact-form {
+
+}
+
+.text-input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    background: #a7d4ee;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Handlee', cursive;
+    overflow: visible;
+}
+
+.text-input:focus {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+    background: #a7d4ee;
+    max-width: 100%;
+    outline: none;
+}
+
+.text-input:active {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+    background: #a7d4ee;
+    max-width: 100%;
+}
+
+.filler {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 95%;
+    background: honeydew;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 10%
+}
+
+#submit {
+    background: honeydew;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.contact-text {
+    font-family: 'Handlee', cursive;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+i {
+        width: 70px;
 }
