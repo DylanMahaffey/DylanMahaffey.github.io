@@ -91,9 +91,9 @@ html, body {
     height:  700px;
 }
 
-.pet-store {
-    background-image: url('../img/screenshot (1).png');
-}
+/*.pet-store {
+    background-image: url('../img/screenshot (1.2).png');
+}*/
 
 .college {
     background-image: url('../img/screenshot (2).png');
@@ -142,7 +142,6 @@ html, body {
     width: 100%;
     background: #a7d4ee;
     font-size: 50px;
-    text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
     color: white;
     margin-top: 70px;
 }
@@ -164,18 +163,19 @@ html, body {
 .item {
     height:  700px;
     background-size: cover;
+    background-position: center;
 }
 
 .pet-store {
-    background-image: url('../img/Screenshot (1).png');
+    background-image: url('../img/screenshot(1.2).png');
 }
 
 .college {
-    background-image: url('../img/Screenshot (2).png');
+    background-image: url('../img/screenshot(2.2).png');
 }
 
 .restaurant {
-background-image: url('../img/Screenshot (6).png');
+background-image: url('../img/screenshot(10.2).png');
 }
 
 .carH {
@@ -203,16 +203,15 @@ background-image: url('../img/Screenshot (6).png');
 .contact {
     height: 100vh;
     background-size: cover;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     margin-top: 50px;
     font-family: 'Handlee', cursive;
     overflow: visible;
 }
 
-.text-imput {
+.text-input {
     color: white;
     font-family: 'Handlee', cursive;
-
 }
 
 .text-input:focus {
@@ -221,6 +220,7 @@ background-image: url('../img/Screenshot (6).png');
     background: #a7d4ee;
     max-width: 100%;
     outline: none;
+    font-family: 'Handlee', cursive;
 }
 
 .text-input:active {
@@ -235,7 +235,7 @@ background-image: url('../img/Screenshot (6).png');
     border-bottom: 1px solid rgba(0, 0, 0, 0.45);
     width: 95%;
     background: honeydew;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-top: 50px;
     position: absolute;
     bottom: 10%
