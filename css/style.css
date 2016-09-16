@@ -1,14 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Handlee';
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display|Raleway';/*UNIVERSAL*/
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display|Raleway';
+/*UNIVERSAL*/
 html, body {
     background-color: #a7d4ee;
-}
-
-.navbar-default {
-    background: rgba(0, 20, 137, 0.3);
-    border: none;
-    color: green;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navlink{
@@ -28,15 +22,6 @@ html, body {
     color: white;
     display: block;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-}
-
-.navhover:hover {
-    color:  #ff6600 !important;
-    background: #383838 !important;
-    bottom: 3px;
-    font-size: 16px;
-    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.8);
-    font-weight: lighter;
 }
 
 /*LANDING PAGE*/
@@ -86,41 +71,12 @@ html, body {
     padding: 20px 200px;
 }
 
+
 /*PORTFOLIO PAGE*/
-.item {
-    height:  700px;
-}
-
-/*.pet-store {
-    background-image: url('../img/screenshot (1.2).png');
-}*/
-
-.college {
-    background-image: url('../img/screenshot (2).png');
-}
-
-.restaurant {
-    background-image: url('../img/Screenshot (10).png');
-}
-
-.carH {
-     font-size: 60px;
-     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-}
-
-.carA {
-    font-size: 30px;
-    text-decoration: none;
+.myP {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
-    padding: 5px;
-}
-
-.carA:hover {
-    color: #ff6600;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .about p {
@@ -129,35 +85,6 @@ html, body {
     margin: 30px 0;
     font-size: 24px;
     font-family: 'Playfair Display', sans-serif;
-}
-
-/*CONTACT FORM*/
-.contact-form {
-    color: white;
-}
-
-.text-input {
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    width: 100%;
-    background: #a7d4ee;
-    font-size: 50px;
-    color: white;
-    margin-top: 70px;
-}
-
-.center-content {
-    background-color: rgba(100, 100, 100, 0.5);
-    border-radius: 90%;
-    padding: 0 200px;
-}
-
-
-/*PORTFOLIO PAGE*/
-.myP {
-    text-align: center;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    color: white;
 }
 
 .item {
@@ -262,4 +189,24 @@ background-image: url('../img/screenshot(10.2).png');
 i {
     width: 70px;
     margin: 20px;
+}
+
+.contact-form {
+    color: white;
+}
+
+.text-input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    background: #a7d4ee;
+    font-size: 50px;
+    color: white;
+    margin-top: 70px;
+}
+
+.center-content {
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 90%;
+    padding: 0 200px;
 }
