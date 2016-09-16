@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Handlee';
-/*UNIVERSAL*/
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display|Raleway';/*UNIVERSAL*/
 html, body {
     background-color: #a7d4ee;
 }
@@ -106,10 +106,12 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.about {
+.about p {
     text-align: center;
     color: white;
-
+    margin: 30px 0;
+    font-size: 24px;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 /*CONTACT FORM*/
