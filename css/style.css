@@ -7,11 +7,15 @@ html, body {
 .navbar-default {
     background: rgba(0, 20, 137, 0.3);
     border: none;
-    color: white;
+    color: green;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.navhover:hover {
+.navlink{
+    color: white !important;
+}
+
+.navlink:hover {
     color:  white !important;
     background: #555 !important;
     font-size: 18px;
@@ -76,6 +80,10 @@ h1 {
 
 .college {
     background-image: url('../img/screenshot (2).png');
+}
+
+.restaurant {
+    background-image: url('../img/Screenshot (10).png');
 }
 
 .carH {
