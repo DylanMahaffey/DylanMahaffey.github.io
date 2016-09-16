@@ -1,6 +1,25 @@
-/*UNIVERSAL*/
+@import 'https://fonts.googleapis.com/css?family=Handlee';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display|Raleway';/*UNIVERSAL*/
 html, body {
-    background-color: honeydew;
+    background-color: #a7d4ee;
+}
+
+.navbar-default {
+    background: rgba(0, 20, 137, 0.3);
+    border: none;
+    color: green;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navlink{
+    color: white !important;
+}
+
+.navlink:hover {
+    color:  white !important;
+    background: #555 !important;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 .navbar-default {
@@ -21,6 +40,8 @@ html, body {
 }
 
 /*LANDING PAGE*/
+
+
 .a {
     background-image: url('../img/city.jpg');
     height: 100vh;
@@ -34,14 +55,15 @@ html, body {
 .a a {
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Crimson Text', sans-serif;
     text-shadow: 5px 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .a a:hover {
     color:  #ff6600;
-    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);
+    font-size: 2.5em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 .a img {
@@ -53,6 +75,71 @@ html, body {
 
 .a h1 {
     font-family: 'Oswald', cursive;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 90%;
+    padding: 20px 200px;
+}
+
+/*PORTFOLIO PAGE*/
+.item {
+    height:  700px;
+}
+
+.pet-store {
+    background-image: url('../img/screenshot (1).png');
+}
+
+.college {
+    background-image: url('../img/screenshot (2).png');
+}
+
+.restaurant {
+    background-image: url('../img/Screenshot (10).png');
+}
+
+.carH {
+     font-size: 60px;
+     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.carA {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.carA:hover {
+    color: #ff6600;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+    text-align: center;
+    color: white;
+    margin: 30px 0;
+    font-size: 24px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/*CONTACT FORM*/
+.contact-form {
+    color: white;
+}
+
+.text-input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    background: #a7d4ee;
     font-size: 50px;
     text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
     color: white;
@@ -115,4 +202,56 @@ background-image: url('../img/Screenshot (6).png');
     background-image: url('../img/map-background.png');
     height: 100vh;
     background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Handlee', cursive;
+    overflow: visible;
+}
+
+.text-input:focus {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+    background: #a7d4ee;
+    max-width: 100%;
+    outline: none;
+}
+
+.text-input:active {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+    background: #a7d4ee;
+    max-width: 100%;
+}
+
+.filler {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    width: 95%;
+    background: honeydew;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 10%
+}
+
+#submit {
+    color: black;
+    background: honeydew;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.contact-text {
+    font-family: 'Handlee', cursive;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+i {
+    width: 70px;
+    margin: 20px;
 }
